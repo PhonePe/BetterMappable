@@ -1,42 +1,20 @@
-#
-# Be sure to run `pod lib lint BetterMappable.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'BetterMappable'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of BetterMappable.'
+  s.version          = '1.0.0'
+  s.license = { :type => "MIT", :file => "LICENSE" }
+  s.summary          = 'Better Mappable through Property Wrappers'
+  s.homepage         = 'https://github.com/PhonePe/BetterMappable'
+  s.author           = { 'Srikanth KV' => 'srikanth.gundaz@gmail.com' }
+  s.source           = { :git => 'https://github.com/PhonePe/BetterMappable.git', :tag => s.version.to_s }
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Srikanth KV/BetterMappable'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Srikanth KV' => 'srikanth.kv@phonepe.com' }
-  s.source           = { :git => 'https://github.com/Srikanth KV/BetterMappable.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'BetterMappable/Classes/**/*'
+  s.ios.deployment_target = '10.0'
+  s.osx.deployment_target = '10.12'
+  s.watchos.deployment_target = '3.0'
+  s.tvos.deployment_target = '10.0'
   
-  # s.resource_bundles = {
-  #   'BetterMappable' => ['BetterMappable/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.swift_version = '5.0'
+  
+  s.source_files = 'BetterMappable/*.swift'
+  
+  s.dependency 'ObjectMapper', '~> 3.5.1'
 end
