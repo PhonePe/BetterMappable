@@ -42,6 +42,8 @@ class BetterMappableTests: XCTestCase {
             let personDict = toDict(jsonString: uPersonString) {
             XCTAssertEqual(personDict["name"] as? String, "Nayana")
             XCTAssertEqual(personDict["age"] as? Int, 24)
+            // Should not contain "organization" key
+            XCTAssertNil(personDict["organization"] as? String)
             XCTAssertEqual(personDict["organization_name"] as? String, "Flipkart")
         } else {
             XCTAssert(false)
