@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1EE5962F71CD6C1B98098520 /* Pods_BetterMappable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA28D21223C7EF19AAC6640 /* Pods_BetterMappable_Tests.framework */; };
 		F91317702404290C007D7C4D /* BetterMappableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913176E2404290C007D7C4D /* BetterMappableTests.swift */; };
+		F913177424042CAD007D7C4D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913177324042CAD007D7C4D /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		F773BABAFA962A09CB74603A /* Pods-BetterMappable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BetterMappable_Tests.release.xcconfig"; path = "Target Support Files/Pods-BetterMappable_Tests/Pods-BetterMappable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F913176E2404290C007D7C4D /* BetterMappableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetterMappableTests.swift; sourceTree = "<group>"; };
 		F913176F2404290C007D7C4D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F913177324042CAD007D7C4D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +86,20 @@
 		F913176D2404290C007D7C4D /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				F913177224042C9A007D7C4D /* TestModels */,
 				F913176E2404290C007D7C4D /* BetterMappableTests.swift */,
 				F913176F2404290C007D7C4D /* Info.plist */,
 			);
 			name = Tests;
 			path = ../Tests;
+			sourceTree = "<group>";
+		};
+		F913177224042C9A007D7C4D /* TestModels */ = {
+			isa = PBXGroup;
+			children = (
+				F913177324042CAD007D7C4D /* Person.swift */,
+			);
+			path = TestModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +137,6 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -209,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F913177424042CAD007D7C4D /* Person.swift in Sources */,
 				F91317702404290C007D7C4D /* BetterMappableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,7 +351,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterMappable_Example.app/BetterMappable_Example";
 			};
 			name = Debug;
 		};
@@ -359,7 +369,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterMappable_Example.app/BetterMappable_Example";
 			};
 			name = Release;
 		};

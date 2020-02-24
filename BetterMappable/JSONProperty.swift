@@ -35,7 +35,7 @@ extension JSONProperty where Value: ExpressibleByNilLiteral {
 }
 
 extension BaseMappable {
-    func mapping(map: Map) {
+    public func mapping(map: Map) {
         func mapTo(mirror: Mirror?, from map: Map) {
             guard let mirror = mirror else {
                 return
