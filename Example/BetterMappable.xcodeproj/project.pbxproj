@@ -10,6 +10,9 @@
 		1EE5962F71CD6C1B98098520 /* Pods_BetterMappable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AA28D21223C7EF19AAC6640 /* Pods_BetterMappable_Tests.framework */; };
 		F91317702404290C007D7C4D /* BetterMappableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913176E2404290C007D7C4D /* BetterMappableTests.swift */; };
 		F913177424042CAD007D7C4D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913177324042CAD007D7C4D /* Person.swift */; };
+		F913177724051D4B007D7C4D /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913177624051D4B007D7C4D /* Student.swift */; };
+		F913177924052178007D7C4D /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913177824052178007D7C4D /* Vehicle.swift */; };
+		F913177B24052AF0007D7C4D /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913177A24052AF0007D7C4D /* Organization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		F913176E2404290C007D7C4D /* BetterMappableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetterMappableTests.swift; sourceTree = "<group>"; };
 		F913176F2404290C007D7C4D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F913177324042CAD007D7C4D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F913177624051D4B007D7C4D /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		F913177824052178007D7C4D /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		F913177A24052AF0007D7C4D /* Organization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				F913177324042CAD007D7C4D /* Person.swift */,
+				F913177624051D4B007D7C4D /* Student.swift */,
+				F913177824052178007D7C4D /* Vehicle.swift */,
+				F913177A24052AF0007D7C4D /* Organization.swift */,
 			);
 			path = TestModels;
 			sourceTree = "<group>";
@@ -219,7 +228,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F913177924052178007D7C4D /* Vehicle.swift in Sources */,
 				F913177424042CAD007D7C4D /* Person.swift in Sources */,
+				F913177724051D4B007D7C4D /* Student.swift in Sources */,
+				F913177B24052AF0007D7C4D /* Organization.swift in Sources */,
 				F91317702404290C007D7C4D /* BetterMappableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

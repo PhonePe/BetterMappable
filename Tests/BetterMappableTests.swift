@@ -14,7 +14,7 @@ class BetterMappableTests: XCTestCase {
         super.tearDown()
     }
     
-    func testMappingToClass() {
+    func testMappingJSONToClass() {
         // This is an example of a functional test case.
         
         let json = """
@@ -26,6 +26,7 @@ class BetterMappableTests: XCTestCase {
         """
         
         guard let person = Mapper<Person>().map(JSONString: json) else {
+            XCTAssert(false)
             return
         }
         
@@ -48,6 +49,96 @@ class BetterMappableTests: XCTestCase {
         } else {
             XCTAssert(false)
         }
+    }
+    
+    func testMappingNestedClassToJSON() {
+        let json = """
+        {
+            "firstName": "Abhijith",
+            "lastName": "KG",
+            "address": {
+                "city": "Bangalore",
+                "state": "Karnataka",
+            }
+        }
+        """
+        
+        guard let student = Mapper<Student>().map(JSONString: json) else {
+            XCTAssert(false)
+            return
+        }
+        
+        XCTAssertEqual(student.firstName, "Abhijith")
+        XCTAssertEqual(student.lastName, "KG")
+        
+        XCTAssertNotNil(student.address)
+        XCTAssertEqual(student.address?.city, "Bangalore")
+        XCTAssertEqual(student.address?.state, "Karnataka")
+        XCTAssertNil(student.address?.building)
+        XCTAssertNil(student.address?.street)
+    }
+    
+    func testMappingJSONToNestedClass() {
+        let address = Address(city: "Bangalore", state: "Karnataka")
+        let studentString = Student(firstName: "Srikanth", lastName: "Kabadi", address: address).toJSONString()
+        
+        XCTAssertNotNil(studentString)
+        
+        if let uStudentString = studentString,
+            let studentDict = toDict(jsonString: uStudentString) {
+            XCTAssertEqual(studentDict["firstName"] as? String, "Srikanth")
+            XCTAssertEqual(studentDict["lastName"] as? String, "Kabadi")
+            
+            XCTAssertNotNil(studentDict["address"] as? [String: Any])
+            
+            if let addDict = studentDict["address"] as? [String: Any] {
+                XCTAssertEqual(addDict["city"] as? String, "Bangalore")
+                XCTAssertEqual(addDict["state"] as? String, "Karnataka")
+            }
+        } else {
+            XCTAssert(false)
+        }
+    }
+    
+    func testStaticMappable() {
+        let json = """
+        {
+            "type": "CAR",
+            "numberOfWheels": 4,
+            "hasBonet": true
+        }
+        """
+        
+        guard let vehicle = Mapper<Vehicle>().map(JSONString: json) else {
+            XCTAssert(false)
+            return
+        }
+        
+        XCTAssertNotNil(vehicle as? Car)
+        
+        if let car = vehicle as? Car {
+            XCTAssertEqual(car.numberOfWheels, 4)
+            XCTAssertEqual(car.hasBonet, true)
+        }
+    }
+    
+    func testTransform() {
+        let json = """
+        {
+            "name": "PhonePe",
+            "type": "PRIVATE",
+            "date": 1582037267000
+        }
+        """
+        
+        guard let org = Mapper<Organization>().map(JSONString: json) else {
+            XCTAssert(false)
+            return
+        }
+        
+        XCTAssertEqual(org.name, "PhonePe")
+        XCTAssertEqual(org.type?.rawValue, "PRIVATE")
+        XCTAssertEqual(org.date?.timeIntervalSince1970, 1582037267000)
     }
     
     private func toDict(jsonString: String) -> [String: Any]? {
