@@ -5,9 +5,9 @@ Better Mappable through Property Wrappers is a framework written in Swift that m
 
 # The Basics
 3 property wrappers are provided for your use:
-- `JSONProperty`
-- `JSONObject`
-- `JSONPropertyWithTransform`
+- [JSONProperty](#JSONProperty)
+- [JSONObject](#JSONObject)
+- [JSONPropertyWithTransform](#JSONPropertyWithTransform)
 
 # JSONProperty
 Use this property wrapper to map any primitive variables (`Int`, `String`, `Bool` etc...)
