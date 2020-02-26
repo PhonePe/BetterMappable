@@ -141,6 +141,23 @@ class BetterMappableTests: XCTestCase {
         XCTAssertEqual(org.date?.timeIntervalSince1970, 1582037267000)
     }
     
+    func testSubclass() {
+        let json = """
+        {
+            "base": "Walmart",
+            "sub": "PhonePe"
+        }
+        """
+        
+        guard let subclass = Mapper<Subclass>().map(JSONString: json) else {
+            XCTAssert(false)
+            return
+        }
+        
+        XCTAssertEqual(subclass.base, "Walmart")
+        XCTAssertEqual(subclass.sub, "PhonePe")
+    }
+    
     private func toDict(jsonString: String) -> [String: Any]? {
         if let data = jsonString.data(using: .utf8) {
             do {
