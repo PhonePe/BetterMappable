@@ -147,7 +147,7 @@ class Subclass: Base {
 ```
 
 # Installation
-BetterMappable can be added to your project using [CocoaPods](https://cocoapods.org/) by adding the following line to your Podfile:
+`BetterMappable` can be added to your project using [CocoaPods](https://cocoapods.org/) by adding the following line to your `Podfile`:
 ```
 pod 'BetterMappable'
 ```
