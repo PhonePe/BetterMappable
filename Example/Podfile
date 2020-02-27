@@ -1,6 +1,0 @@
-use_frameworks!
-target 'BetterMappable_Tests' do
-  pod 'BetterMappable', :path => '../'
-  
-  
-end

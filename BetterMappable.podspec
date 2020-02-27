@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BetterMappable'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.summary          = 'Better Mappable through Property Wrappers'
   s.homepage         = 'https://github.com/PhonePe/BetterMappable'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   
   s.swift_version = '5.0'
   
-  s.source_files = 'BetterMappable/*.swift'
+  s.source_files = 'Source/*.swift'
   
   s.dependency 'ObjectMapper', '~> 3.5.1'
 end
