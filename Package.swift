@@ -32,9 +32,9 @@ let package = Package(
         .target(name: "BetterMappable-macOS", dependencies: [], path: "Source"),
         .target(name: "BetterMappable-tvOS", dependencies: [], path: "Source"),
         .target(name: "BetterMappable-watchOS", dependencies: [], path: "Source"),
-        .testTarget(name: "BetterMappable-iOSTests", dependencies: ["BetterMappable"], path: "Tests"),
-        .testTarget(name: "BetterMappable-macOSTests", dependencies: ["BetterMappable"], path: "Tests"),
-        .testTarget(name: "BetterMappable-tvOSTests", dependencies: ["BetterMappable"], path: "Tests")
+        .testTarget(name: "BetterMappable-iOSTests", dependencies: ["BetterMappable-iOS"], path: "Tests"),
+        .testTarget(name: "BetterMappable-macOSTests", dependencies: ["BetterMappable-macOS"], path: "Tests"),
+        .testTarget(name: "BetterMappable-tvOSTests", dependencies: ["BetterMappable-tvOS"], path: "Tests")
     ],
     swiftLanguageVersions: [
         .version("5.1")
