@@ -150,7 +150,23 @@ class Subclass: Base {
 ```
 
 # Installation
+### Cocoapods
 `BetterMappable` can be added to your project using [CocoaPods](https://cocoapods.org/) by adding the following line to your `Podfile`:
 ```
 pod 'BetterMappable'
 ```
+
+### Carthage
+If you're using [Carthage](https://github.com/Carthage/Carthage) you can add a dependency on `BetterMappable` by adding it to your `Cartfile`:
+
+```
+github "PhonePe/BetterMappable"
+```
+
+### Swift Package Manager
+To add `BetterMappable` to a [Swift Package Manager](https://swift.org/package-manager/) based project, add:
+
+```swift
+.package(url: "https://github.com/PhonePe/BetterMappable.git", from: "1.0.1"),
+```
+to your `Package.swift` files `dependencies` array.
