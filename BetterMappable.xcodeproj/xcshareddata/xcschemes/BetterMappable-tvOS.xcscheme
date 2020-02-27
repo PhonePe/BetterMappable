@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F9B026DC2407A6F70040758E"
-               BuildableName = "BetterMappable_tvOS.framework"
+               BuildableName = "BetterMappable.framework"
                BlueprintName = "BetterMappable-tvOS"
                ReferencedContainer = "container:BetterMappable.xcodeproj">
             </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F9B026DC2407A6F70040758E"
-            BuildableName = "BetterMappable_tvOS.framework"
+            BuildableName = "BetterMappable.framework"
             BlueprintName = "BetterMappable-tvOS"
             ReferencedContainer = "container:BetterMappable.xcodeproj">
          </BuildableReference>

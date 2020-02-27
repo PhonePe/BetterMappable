@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F9B026A52407A69F0040758E"
-               BuildableName = "BetterMappable_macOS.framework"
+               BuildableName = "BetterMappable.framework"
                BlueprintName = "BetterMappable-macOS"
                ReferencedContainer = "container:BetterMappable.xcodeproj">
             </BuildableReference>
@@ -61,7 +61,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F9B026A52407A69F0040758E"
-            BuildableName = "BetterMappable_macOS.framework"
+            BuildableName = "BetterMappable.framework"
             BlueprintName = "BetterMappable-macOS"
             ReferencedContainer = "container:BetterMappable.xcodeproj">
          </BuildableReference>

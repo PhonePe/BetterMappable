@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F9B026CF2407A6D10040758E"
-               BuildableName = "BetterMappable_watchOS.framework"
+               BuildableName = "BetterMappable.framework"
                BlueprintName = "BetterMappable-watchOS"
                ReferencedContainer = "container:BetterMappable.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F9B026CF2407A6D10040758E"
-            BuildableName = "BetterMappable_watchOS.framework"
+            BuildableName = "BetterMappable.framework"
             BlueprintName = "BetterMappable-watchOS"
             ReferencedContainer = "container:BetterMappable.xcodeproj">
          </BuildableReference>
