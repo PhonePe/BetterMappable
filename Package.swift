@@ -19,7 +19,7 @@ let package = Package(
         )
     ],
     targets: [
-        .target(name: "BetterMappable", dependencies: [], path: "Source"),
+        .target(name: "BetterMappable", dependencies: ["ObjectMapper"], path: "Source"),
         .testTarget(name: "BetterMappableTests", dependencies: ["BetterMappable"], path: "Tests")
     ],
     swiftLanguageVersions: [.version("5.1")]
