@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F9B02643240791570040758E"
-               BuildableName = "BetterMappable.framework"
-               BlueprintName = "BetterMappable"
+               BlueprintIdentifier = "F9B026A52407A69F0040758E"
+               BuildableName = "BetterMappable_macOS.framework"
+               BlueprintName = "BetterMappable-macOS"
                ReferencedContainer = "container:BetterMappable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F9B0264C240791570040758E"
-               BuildableName = "BetterMappableTests.xctest"
-               BlueprintName = "BetterMappableTests"
+               BlueprintIdentifier = "F9B026AD2407A6A00040758E"
+               BuildableName = "BetterMappable-macOSTests.xctest"
+               BlueprintName = "BetterMappable-macOSTests"
                ReferencedContainer = "container:BetterMappable.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -60,9 +60,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F9B02643240791570040758E"
-            BuildableName = "BetterMappable.framework"
-            BlueprintName = "BetterMappable"
+            BlueprintIdentifier = "F9B026A52407A69F0040758E"
+            BuildableName = "BetterMappable_macOS.framework"
+            BlueprintName = "BetterMappable-macOS"
             ReferencedContainer = "container:BetterMappable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -7,28 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9B0264E240791570040758E /* BetterMappable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B02644240791570040758E /* BetterMappable.framework */; };
-		F9B02653240791570040758E /* BetterMappableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02652240791570040758E /* BetterMappableTests.swift */; };
-		F9B02655240791570040758E /* BetterMappable.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B02647240791570040758E /* BetterMappable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9B02662240793A10040758E /* JSONPropertyWithTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0265F240793A00040758E /* JSONPropertyWithTransform.swift */; };
-		F9B02663240793A10040758E /* JSONProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02660240793A10040758E /* JSONProperty.swift */; };
-		F9B02664240793A10040758E /* JSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02661240793A10040758E /* JSONObject.swift */; };
-		F9B0266C240794050040758E /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02667240794050040758E /* Vehicle.swift */; };
-		F9B0266D240794050040758E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02668240794050040758E /* Person.swift */; };
-		F9B0266E240794050040758E /* Subclassing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02669240794050040758E /* Subclassing.swift */; };
-		F9B0266F240794050040758E /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0266A240794050040758E /* Organization.swift */; };
-		F9B02670240794050040758E /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0266B240794050040758E /* Student.swift */; };
-		F9B0269B24079E5E0040758E /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B0268724079E0A0040758E /* ObjectMapper.framework */; };
+		F973090F2407BEB10002F800 /* BetterMappable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B027272407ABA10040758E /* BetterMappable.framework */; };
+		F9B026AF2407A6A00040758E /* BetterMappable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B026A62407A69F0040758E /* BetterMappable.framework */; };
+		F9B026C52407A6AC0040758E /* BetterMappableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02652240791570040758E /* BetterMappableTests.swift */; };
+		F9B026C62407A6B10040758E /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02667240794050040758E /* Vehicle.swift */; };
+		F9B026C72407A6B10040758E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02668240794050040758E /* Person.swift */; };
+		F9B026C82407A6B10040758E /* Subclassing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02669240794050040758E /* Subclassing.swift */; };
+		F9B026C92407A6B10040758E /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0266A240794050040758E /* Organization.swift */; };
+		F9B026CA2407A6B10040758E /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0266B240794050040758E /* Student.swift */; };
+		F9B026E62407A6F70040758E /* BetterMappable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B026DD2407A6F70040758E /* BetterMappable.framework */; };
+		F9B026F42407A7060040758E /* JSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02661240793A10040758E /* JSONObject.swift */; };
+		F9B026F52407A7060040758E /* JSONProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02660240793A10040758E /* JSONProperty.swift */; };
+		F9B026F62407A7060040758E /* JSONPropertyWithTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0265F240793A00040758E /* JSONPropertyWithTransform.swift */; };
+		F9B026F72407A7070040758E /* JSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02661240793A10040758E /* JSONObject.swift */; };
+		F9B026F82407A7070040758E /* JSONProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02660240793A10040758E /* JSONProperty.swift */; };
+		F9B026F92407A7070040758E /* JSONPropertyWithTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0265F240793A00040758E /* JSONPropertyWithTransform.swift */; };
+		F9B026FA2407A7080040758E /* JSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02661240793A10040758E /* JSONObject.swift */; };
+		F9B026FB2407A7080040758E /* JSONProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02660240793A10040758E /* JSONProperty.swift */; };
+		F9B026FC2407A7080040758E /* JSONPropertyWithTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0265F240793A00040758E /* JSONPropertyWithTransform.swift */; };
+		F9B027032407A7C50040758E /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B0268924079E0A0040758E /* ObjectMapper.framework */; };
+		F9B027042407A7CA0040758E /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B0268B24079E0A0040758E /* ObjectMapper.framework */; };
+		F9B027182407A9C30040758E /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B0268D24079E0A0040758E /* ObjectMapper.framework */; };
+		F9B027192407A9D90040758E /* BetterMappableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02652240791570040758E /* BetterMappableTests.swift */; };
+		F9B0271A2407A9D90040758E /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02667240794050040758E /* Vehicle.swift */; };
+		F9B0271B2407A9D90040758E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02668240794050040758E /* Person.swift */; };
+		F9B0271C2407A9D90040758E /* Subclassing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02669240794050040758E /* Subclassing.swift */; };
+		F9B0271D2407A9D90040758E /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0266A240794050040758E /* Organization.swift */; };
+		F9B0271E2407A9D90040758E /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0266B240794050040758E /* Student.swift */; };
+		F9B0273E2407ABAB0040758E /* JSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02661240793A10040758E /* JSONObject.swift */; };
+		F9B0273F2407ABAB0040758E /* JSONProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02660240793A10040758E /* JSONProperty.swift */; };
+		F9B027402407ABAB0040758E /* JSONPropertyWithTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0265F240793A00040758E /* JSONPropertyWithTransform.swift */; };
+		F9B027412407ABB10040758E /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02667240794050040758E /* Vehicle.swift */; };
+		F9B027422407ABB10040758E /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02668240794050040758E /* Person.swift */; };
+		F9B027432407ABB10040758E /* Subclassing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02669240794050040758E /* Subclassing.swift */; };
+		F9B027442407ABB10040758E /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0266A240794050040758E /* Organization.swift */; };
+		F9B027452407ABB10040758E /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B0266B240794050040758E /* Student.swift */; };
+		F9B027472407ABB50040758E /* BetterMappableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02652240791570040758E /* BetterMappableTests.swift */; };
+		F9B027482407ABCC0040758E /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B0268724079E0A0040758E /* ObjectMapper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F9B0264F240791570040758E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F9B0263B240791570040758E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F9B02643240791570040758E;
-			remoteInfo = BetterMappable;
-		};
 		F9B0268624079E0A0040758E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F9B0267B24079E090040758E /* ObjectMapper.xcodeproj */;
@@ -85,13 +103,32 @@
 			remoteGlobalIDString = DBB9B41F2142A25100078E5A;
 			remoteInfo = "ObjectMapper-Mac-Static";
 		};
+		F9B026B02407A6A00040758E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9B0263B240791570040758E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9B026A52407A69F0040758E;
+			remoteInfo = "BetterMappable-macOS";
+		};
+		F9B026E72407A6F70040758E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9B0263B240791570040758E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9B026DC2407A6F70040758E;
+			remoteInfo = "BetterMappable-tvOS";
+		};
+		F9B027312407ABA10040758E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9B0263B240791570040758E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F9B027262407ABA10040758E;
+			remoteInfo = "BetterMappable-iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F9B02644240791570040758E /* BetterMappable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BetterMappable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B02647240791570040758E /* BetterMappable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetterMappable.h; sourceTree = "<group>"; };
 		F9B02648240791570040758E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9B0264D240791570040758E /* BetterMappableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterMappableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B02652240791570040758E /* BetterMappableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterMappableTests.swift; sourceTree = "<group>"; };
 		F9B02654240791570040758E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9B0265F240793A00040758E /* JSONPropertyWithTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONPropertyWithTransform.swift; sourceTree = "<group>"; };
@@ -103,22 +140,69 @@
 		F9B0266A240794050040758E /* Organization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
 		F9B0266B240794050040758E /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		F9B0267B24079E090040758E /* ObjectMapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ObjectMapper.xcodeproj; path = Carthage/Checkouts/ObjectMapper/ObjectMapper.xcodeproj; sourceTree = "<group>"; };
+		F9B026A62407A69F0040758E /* BetterMappable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BetterMappable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B026AE2407A6A00040758E /* BetterMappable-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BetterMappable-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B026D02407A6D10040758E /* BetterMappable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BetterMappable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B026DD2407A6F70040758E /* BetterMappable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BetterMappable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B026E52407A6F70040758E /* BetterMappable-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BetterMappable-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B027272407ABA10040758E /* BetterMappable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BetterMappable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9B0272F2407ABA10040758E /* BetterMappable-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BetterMappable-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F9B02641240791570040758E /* Frameworks */ = {
+		F9B026A32407A69F0040758E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B0269B24079E5E0040758E /* ObjectMapper.framework in Frameworks */,
+				F9B027032407A7C50040758E /* ObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9B0264A240791570040758E /* Frameworks */ = {
+		F9B026AB2407A6A00040758E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B0264E240791570040758E /* BetterMappable.framework in Frameworks */,
+				F9B026AF2407A6A00040758E /* BetterMappable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B026CD2407A6D10040758E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B027042407A7CA0040758E /* ObjectMapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B026DA2407A6F70040758E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B027182407A9C30040758E /* ObjectMapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B026E22407A6F70040758E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B026E62407A6F70040758E /* BetterMappable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B027242407ABA10040758E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B027482407ABCC0040758E /* ObjectMapper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B0272C2407ABA10040758E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F973090F2407BEB10002F800 /* BetterMappable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +223,13 @@
 		F9B02645240791570040758E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9B02644240791570040758E /* BetterMappable.framework */,
-				F9B0264D240791570040758E /* BetterMappableTests.xctest */,
+				F9B026A62407A69F0040758E /* BetterMappable.framework */,
+				F9B026AE2407A6A00040758E /* BetterMappable-macOSTests.xctest */,
+				F9B026D02407A6D10040758E /* BetterMappable.framework */,
+				F9B026DD2407A6F70040758E /* BetterMappable.framework */,
+				F9B026E52407A6F70040758E /* BetterMappable-tvOSTests.xctest */,
+				F9B027272407ABA10040758E /* BetterMappable.framework */,
+				F9B0272F2407ABA10040758E /* BetterMappable-iOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,51 +309,161 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F9B0263F240791570040758E /* Headers */ = {
+		F9B026A12407A69F0040758E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B02655240791570040758E /* BetterMappable.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B026CB2407A6D10040758E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B026D82407A6F70040758E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B027222407ABA10040758E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F9B02643240791570040758E /* BetterMappable */ = {
+		F9B026A52407A69F0040758E /* BetterMappable-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9B02658240791570040758E /* Build configuration list for PBXNativeTarget "BetterMappable" */;
+			buildConfigurationList = F9B026C32407A6A00040758E /* Build configuration list for PBXNativeTarget "BetterMappable-macOS" */;
 			buildPhases = (
-				F9B0263F240791570040758E /* Headers */,
-				F9B02640240791570040758E /* Sources */,
-				F9B02641240791570040758E /* Frameworks */,
-				F9B02642240791570040758E /* Resources */,
+				F9B026A12407A69F0040758E /* Headers */,
+				F9B026A22407A69F0040758E /* Sources */,
+				F9B026A32407A69F0040758E /* Frameworks */,
+				F9B026A42407A69F0040758E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BetterMappable;
-			productName = BetterMappable;
-			productReference = F9B02644240791570040758E /* BetterMappable.framework */;
+			name = "BetterMappable-macOS";
+			productName = "BetterMappable-macOS";
+			productReference = F9B026A62407A69F0040758E /* BetterMappable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F9B0264C240791570040758E /* BetterMappableTests */ = {
+		F9B026AD2407A6A00040758E /* BetterMappable-macOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9B0265B240791570040758E /* Build configuration list for PBXNativeTarget "BetterMappableTests" */;
+			buildConfigurationList = F9B026C42407A6A00040758E /* Build configuration list for PBXNativeTarget "BetterMappable-macOSTests" */;
 			buildPhases = (
-				F9B02649240791570040758E /* Sources */,
-				F9B0264A240791570040758E /* Frameworks */,
-				F9B0264B240791570040758E /* Resources */,
+				F9B026AA2407A6A00040758E /* Sources */,
+				F9B026AB2407A6A00040758E /* Frameworks */,
+				F9B026AC2407A6A00040758E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F9B02650240791570040758E /* PBXTargetDependency */,
+				F9B026B12407A6A00040758E /* PBXTargetDependency */,
 			);
-			name = BetterMappableTests;
-			productName = BetterMappableTests;
-			productReference = F9B0264D240791570040758E /* BetterMappableTests.xctest */;
+			name = "BetterMappable-macOSTests";
+			productName = "BetterMappable-macOSTests";
+			productReference = F9B026AE2407A6A00040758E /* BetterMappable-macOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9B026CF2407A6D10040758E /* BetterMappable-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B026D52407A6D20040758E /* Build configuration list for PBXNativeTarget "BetterMappable-watchOS" */;
+			buildPhases = (
+				F9B026CB2407A6D10040758E /* Headers */,
+				F9B026CC2407A6D10040758E /* Sources */,
+				F9B026CD2407A6D10040758E /* Frameworks */,
+				F9B026CE2407A6D10040758E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BetterMappable-watchOS";
+			productName = "BetterMappable-watchOS";
+			productReference = F9B026D02407A6D10040758E /* BetterMappable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9B026DC2407A6F70040758E /* BetterMappable-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B026EE2407A6F70040758E /* Build configuration list for PBXNativeTarget "BetterMappable-tvOS" */;
+			buildPhases = (
+				F9B026D82407A6F70040758E /* Headers */,
+				F9B026D92407A6F70040758E /* Sources */,
+				F9B026DA2407A6F70040758E /* Frameworks */,
+				F9B026DB2407A6F70040758E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BetterMappable-tvOS";
+			productName = "BetterMappable-tvOS";
+			productReference = F9B026DD2407A6F70040758E /* BetterMappable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9B026E42407A6F70040758E /* BetterMappable-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B026F12407A6F70040758E /* Build configuration list for PBXNativeTarget "BetterMappable-tvOSTests" */;
+			buildPhases = (
+				F9B026E12407A6F70040758E /* Sources */,
+				F9B026E22407A6F70040758E /* Frameworks */,
+				F9B026E32407A6F70040758E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9B026E82407A6F70040758E /* PBXTargetDependency */,
+			);
+			name = "BetterMappable-tvOSTests";
+			productName = "BetterMappable-tvOSTests";
+			productReference = F9B026E52407A6F70040758E /* BetterMappable-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F9B027262407ABA10040758E /* BetterMappable-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B027382407ABA10040758E /* Build configuration list for PBXNativeTarget "BetterMappable-iOS" */;
+			buildPhases = (
+				F9B027222407ABA10040758E /* Headers */,
+				F9B027232407ABA10040758E /* Sources */,
+				F9B027242407ABA10040758E /* Frameworks */,
+				F9B027252407ABA10040758E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BetterMappable-iOS";
+			productName = "BetterMappable-iOS";
+			productReference = F9B027272407ABA10040758E /* BetterMappable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F9B0272E2407ABA10040758E /* BetterMappable-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B0273B2407ABA10040758E /* Build configuration list for PBXNativeTarget "BetterMappable-iOSTests" */;
+			buildPhases = (
+				F9B0272B2407ABA10040758E /* Sources */,
+				F9B0272C2407ABA10040758E /* Frameworks */,
+				F9B0272D2407ABA10040758E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9B027322407ABA10040758E /* PBXTargetDependency */,
+			);
+			name = "BetterMappable-iOSTests";
+			productName = "BetterMappable-iOSTests";
+			productReference = F9B0272F2407ABA10040758E /* BetterMappable-iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -277,11 +476,25 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = PhonePe;
 				TargetAttributes = {
-					F9B02643240791570040758E = {
+					F9B026A52407A69F0040758E = {
 						CreatedOnToolsVersion = 11.3.1;
-						LastSwiftMigration = 1130;
 					};
-					F9B0264C240791570040758E = {
+					F9B026AD2407A6A00040758E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F9B026CF2407A6D10040758E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F9B026DC2407A6F70040758E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F9B026E42407A6F70040758E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F9B027262407ABA10040758E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					F9B0272E2407ABA10040758E = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
@@ -305,8 +518,13 @@
 			);
 			projectRoot = "";
 			targets = (
-				F9B02643240791570040758E /* BetterMappable */,
-				F9B0264C240791570040758E /* BetterMappableTests */,
+				F9B027262407ABA10040758E /* BetterMappable-iOS */,
+				F9B0272E2407ABA10040758E /* BetterMappable-iOSTests */,
+				F9B026A52407A69F0040758E /* BetterMappable-macOS */,
+				F9B026AD2407A6A00040758E /* BetterMappable-macOSTests */,
+				F9B026DC2407A6F70040758E /* BetterMappable-tvOS */,
+				F9B026E42407A6F70040758E /* BetterMappable-tvOSTests */,
+				F9B026CF2407A6D10040758E /* BetterMappable-watchOS */,
 			);
 		};
 /* End PBXProject section */
@@ -371,14 +589,49 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F9B02642240791570040758E /* Resources */ = {
+		F9B026A42407A69F0040758E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9B0264B240791570040758E /* Resources */ = {
+		F9B026AC2407A6A00040758E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B026CE2407A6D10040758E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B026DB2407A6F70040758E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B026E32407A6F70040758E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B027252407ABA10040758E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B0272D2407ABA10040758E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -388,36 +641,102 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F9B02640240791570040758E /* Sources */ = {
+		F9B026A22407A69F0040758E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B02663240793A10040758E /* JSONProperty.swift in Sources */,
-				F9B02664240793A10040758E /* JSONObject.swift in Sources */,
-				F9B02662240793A10040758E /* JSONPropertyWithTransform.swift in Sources */,
+				F9B026F52407A7060040758E /* JSONProperty.swift in Sources */,
+				F9B026F62407A7060040758E /* JSONPropertyWithTransform.swift in Sources */,
+				F9B026F42407A7060040758E /* JSONObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9B02649240791570040758E /* Sources */ = {
+		F9B026AA2407A6A00040758E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B0266D240794050040758E /* Person.swift in Sources */,
-				F9B02670240794050040758E /* Student.swift in Sources */,
-				F9B0266C240794050040758E /* Vehicle.swift in Sources */,
-				F9B0266E240794050040758E /* Subclassing.swift in Sources */,
-				F9B0266F240794050040758E /* Organization.swift in Sources */,
-				F9B02653240791570040758E /* BetterMappableTests.swift in Sources */,
+				F9B026C82407A6B10040758E /* Subclassing.swift in Sources */,
+				F9B026C62407A6B10040758E /* Vehicle.swift in Sources */,
+				F9B026C72407A6B10040758E /* Person.swift in Sources */,
+				F9B026C92407A6B10040758E /* Organization.swift in Sources */,
+				F9B026CA2407A6B10040758E /* Student.swift in Sources */,
+				F9B026C52407A6AC0040758E /* BetterMappableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B026CC2407A6D10040758E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B026F82407A7070040758E /* JSONProperty.swift in Sources */,
+				F9B026F92407A7070040758E /* JSONPropertyWithTransform.swift in Sources */,
+				F9B026F72407A7070040758E /* JSONObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B026D92407A6F70040758E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B026FB2407A7080040758E /* JSONProperty.swift in Sources */,
+				F9B026FC2407A7080040758E /* JSONPropertyWithTransform.swift in Sources */,
+				F9B026FA2407A7080040758E /* JSONObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B026E12407A6F70040758E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B0271C2407A9D90040758E /* Subclassing.swift in Sources */,
+				F9B0271A2407A9D90040758E /* Vehicle.swift in Sources */,
+				F9B0271B2407A9D90040758E /* Person.swift in Sources */,
+				F9B0271D2407A9D90040758E /* Organization.swift in Sources */,
+				F9B0271E2407A9D90040758E /* Student.swift in Sources */,
+				F9B027192407A9D90040758E /* BetterMappableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B027232407ABA10040758E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B0273F2407ABAB0040758E /* JSONProperty.swift in Sources */,
+				F9B027402407ABAB0040758E /* JSONPropertyWithTransform.swift in Sources */,
+				F9B0273E2407ABAB0040758E /* JSONObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9B0272B2407ABA10040758E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9B027422407ABB10040758E /* Person.swift in Sources */,
+				F9B027452407ABB10040758E /* Student.swift in Sources */,
+				F9B027472407ABB50040758E /* BetterMappableTests.swift in Sources */,
+				F9B027412407ABB10040758E /* Vehicle.swift in Sources */,
+				F9B027432407ABB10040758E /* Subclassing.swift in Sources */,
+				F9B027442407ABB10040758E /* Organization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F9B02650240791570040758E /* PBXTargetDependency */ = {
+		F9B026B12407A6A00040758E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F9B02643240791570040758E /* BetterMappable */;
-			targetProxy = F9B0264F240791570040758E /* PBXContainerItemProxy */;
+			target = F9B026A52407A69F0040758E /* BetterMappable-macOS */;
+			targetProxy = F9B026B02407A6A00040758E /* PBXContainerItemProxy */;
+		};
+		F9B026E82407A6F70040758E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9B026DC2407A6F70040758E /* BetterMappable-tvOS */;
+			targetProxy = F9B026E72407A6F70040758E /* PBXContainerItemProxy */;
+		};
+		F9B027322407ABA10040758E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F9B027262407ABA10040758E /* BetterMappable-iOS */;
+			targetProxy = F9B027312407ABA10040758E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -542,89 +861,330 @@
 			};
 			name = Release;
 		};
-		F9B02659240791570040758E /* Debug */ = {
+		F9B026B72407A6A00040758E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9GW78CXC2W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-macOS";
+				PRODUCT_NAME = BetterMappable;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F9B026B82407A6A00040758E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9GW78CXC2W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-macOS";
+				PRODUCT_NAME = BetterMappable;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F9B026B92407A6A00040758E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9GW78CXC2W;
+				INFOPLIST_FILE = Tests/info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F9B026BA2407A6A00040758E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9GW78CXC2W;
+				INFOPLIST_FILE = Tests/info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-macOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F9B026D62407A6D20040758E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9GW78CXC2W;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = Source/info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.phonepe.framework.BetterMappable;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-watchOS";
+				PRODUCT_NAME = BetterMappable;
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		F9B026D72407A6D20040758E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9GW78CXC2W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-watchOS";
+				PRODUCT_NAME = BetterMappable;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		F9B026EF2407A6F70040758E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9GW78CXC2W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-tvOS";
+				PRODUCT_NAME = BetterMappable;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		F9B026F02407A6F70040758E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9GW78CXC2W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-tvOS";
+				PRODUCT_NAME = BetterMappable;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Release;
+		};
+		F9B026F22407A6F70040758E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GW78CXC2W;
+				INFOPLIST_FILE = Tests/info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Debug;
+		};
+		F9B026F32407A6F70040758E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9GW78CXC2W;
+				INFOPLIST_FILE = Tests/info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.2;
+			};
+			name = Release;
+		};
+		F9B027392407ABA10040758E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9GW78CXC2W;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Source/info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-iOS";
+				PRODUCT_NAME = BetterMappable;
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F9B0265A240791570040758E /* Release */ = {
+		F9B0273A2407ABA10040758E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9GW78CXC2W;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = Source/info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.phonepe.framework.BetterMappable;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-iOS";
+				PRODUCT_NAME = BetterMappable;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		F9B0265C240791570040758E /* Debug */ = {
+		F9B0273C2407ABA10040758E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9GW78CXC2W;
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = Tests/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.phonepe.framework.BetterMappableTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F9B0265D240791570040758E /* Release */ = {
+		F9B0273D2407ABA10040758E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9GW78CXC2W;
-				INFOPLIST_FILE = Tests/Info.plist;
+				INFOPLIST_FILE = Tests/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.phonepe.framework.BetterMappableTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.phonepe.framework.BetterMappable-iOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -643,20 +1203,65 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9B02658240791570040758E /* Build configuration list for PBXNativeTarget "BetterMappable" */ = {
+		F9B026C32407A6A00040758E /* Build configuration list for PBXNativeTarget "BetterMappable-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9B02659240791570040758E /* Debug */,
-				F9B0265A240791570040758E /* Release */,
+				F9B026B72407A6A00040758E /* Debug */,
+				F9B026B82407A6A00040758E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9B0265B240791570040758E /* Build configuration list for PBXNativeTarget "BetterMappableTests" */ = {
+		F9B026C42407A6A00040758E /* Build configuration list for PBXNativeTarget "BetterMappable-macOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F9B0265C240791570040758E /* Debug */,
-				F9B0265D240791570040758E /* Release */,
+				F9B026B92407A6A00040758E /* Debug */,
+				F9B026BA2407A6A00040758E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B026D52407A6D20040758E /* Build configuration list for PBXNativeTarget "BetterMappable-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B026D62407A6D20040758E /* Debug */,
+				F9B026D72407A6D20040758E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B026EE2407A6F70040758E /* Build configuration list for PBXNativeTarget "BetterMappable-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B026EF2407A6F70040758E /* Debug */,
+				F9B026F02407A6F70040758E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B026F12407A6F70040758E /* Build configuration list for PBXNativeTarget "BetterMappable-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B026F22407A6F70040758E /* Debug */,
+				F9B026F32407A6F70040758E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B027382407ABA10040758E /* Build configuration list for PBXNativeTarget "BetterMappable-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B027392407ABA10040758E /* Debug */,
+				F9B0273A2407ABA10040758E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B0273B2407ABA10040758E /* Build configuration list for PBXNativeTarget "BetterMappable-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9B0273C2407ABA10040758E /* Debug */,
+				F9B0273D2407ABA10040758E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
