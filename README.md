@@ -1,5 +1,7 @@
 # BetterMappable
 [![Swift 5.1](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Swift Package Manager](https://rawgit.com/jlyonsmith/artwork/master/SwiftPackageManager/swiftpackagemanager-compatible.svg)](https://swift.org/package-manager/)
 
 Better Mappable through Property Wrappers is a framework written in Swift that makes it easy for you to convert your model objects (classes and structs) to and from JSON with the help of [`ObjectMapper`](https://github.com/tristanhimmelman/ObjectMapper). Helps you in reducing a lot of boiler plate code in your models. 
 
