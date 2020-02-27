@@ -170,3 +170,6 @@ To add `BetterMappable` to a [Swift Package Manager](https://swift.org/package-m
 .package(url: "https://github.com/PhonePe/BetterMappable.git", from: "1.0.1"),
 ```
 to your `Package.swift` files `dependencies` array.
+
+# Credits
+[Srikanth KV](https://twitter.com/SrikanthVKabadi)
