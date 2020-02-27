@@ -1,5 +1,4 @@
-// swift-tools-version:5.1
-
+// swift-tools-version:5.0
 import PackageDescription
 
 let package = Package(
@@ -11,15 +10,7 @@ let package = Package(
         .watchOS(.v4)
     ],
     products: [
-        .library(
-            name: "BetterMappable",
-            targets: [
-                "BetterMappable-iOS",
-                "BetterMappable-macOS",
-                "BetterMappable-tvOS",
-                "BetterMappable-watchOS",
-            ]
-        )
+        .library(name: "BetterMappable", targets: ["BetterMappable"])
     ],
     dependencies: [
         .package(
@@ -28,15 +19,8 @@ let package = Package(
         )
     ],
     targets: [
-        .target(name: "BetterMappable-iOS", dependencies: [], path: "Source"),
-        .target(name: "BetterMappable-macOS", dependencies: [], path: "Source"),
-        .target(name: "BetterMappable-tvOS", dependencies: [], path: "Source"),
-        .target(name: "BetterMappable-watchOS", dependencies: [], path: "Source"),
-        .testTarget(name: "BetterMappable-iOSTests", dependencies: ["BetterMappable-iOS"], path: "Tests"),
-        .testTarget(name: "BetterMappable-macOSTests", dependencies: ["BetterMappable-macOS"], path: "Tests"),
-        .testTarget(name: "BetterMappable-tvOSTests", dependencies: ["BetterMappable-tvOS"], path: "Tests")
+        .target(name: "BetterMappable", dependencies: []),
+        .testTarget(name: "BetterMappableTests", dependencies: ["BetterMappable"])
     ],
-    swiftLanguageVersions: [
-        .version("5.1")
-    ]
+    swiftLanguageVersions: [.version("5.1")]
 )
