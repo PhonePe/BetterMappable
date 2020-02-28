@@ -186,6 +186,35 @@ class BetterMappableTests: XCTestCase {
         XCTAssertEqual(store.transactions?.last?.amount, 200)
     }
     
+    func testJSONDictionary() {
+        let json = """
+        {
+            "data": {
+                "food": {
+                    "id": "T1234",
+                    "name": "Food"
+                },
+                "travel": {
+                    "id": "T1456",
+                    "name": "Travel"
+                }
+            }
+        }
+        """
+        
+        guard let categories = Mapper<Categories>().map(JSONString: json) else {
+            XCTAssert(false)
+            return
+        }
+        
+        XCTAssertNotNil(categories.data)
+        XCTAssertEqual(categories.data?.count, 2)
+        XCTAssertNotNil(categories.data?["food"])
+        XCTAssertNotNil(categories.data?["travel"])
+        XCTAssertEqual(categories.data?["food"]?.name, "Food")
+        XCTAssertEqual(categories.data?["travel"]?.name, "Travel")
+    }
+    
     private func toDict(jsonString: String) -> [String: Any]? {
         if let data = jsonString.data(using: .utf8) {
             do {
