@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9363C3D2409146900213B7B /* JSONObjectArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C312409146800213B7B /* JSONObjectArray.swift */; };
+		F9363C3E2409146900213B7B /* JSONObjectArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C312409146800213B7B /* JSONObjectArray.swift */; };
+		F9363C3F2409146900213B7B /* JSONObjectArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C312409146800213B7B /* JSONObjectArray.swift */; };
+		F9363C402409146900213B7B /* JSONObjectArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C312409146800213B7B /* JSONObjectArray.swift */; };
+		F9363C412409146900213B7B /* BaseMappable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C3A2409146900213B7B /* BaseMappable+Ext.swift */; };
+		F9363C422409146900213B7B /* BaseMappable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C3A2409146900213B7B /* BaseMappable+Ext.swift */; };
+		F9363C432409146900213B7B /* BaseMappable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C3A2409146900213B7B /* BaseMappable+Ext.swift */; };
+		F9363C442409146900213B7B /* BaseMappable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C3A2409146900213B7B /* BaseMappable+Ext.swift */; };
+		F9363C492409146900213B7B /* JSONMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C3C2409146900213B7B /* JSONMappable.swift */; };
+		F9363C4A2409146900213B7B /* JSONMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C3C2409146900213B7B /* JSONMappable.swift */; };
+		F9363C4B2409146900213B7B /* JSONMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C3C2409146900213B7B /* JSONMappable.swift */; };
+		F9363C4C2409146900213B7B /* JSONMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C3C2409146900213B7B /* JSONMappable.swift */; };
+		F9363C4E240914DD00213B7B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C4D240914DD00213B7B /* Store.swift */; };
+		F9363C4F240914DD00213B7B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C4D240914DD00213B7B /* Store.swift */; };
+		F9363C50240914DD00213B7B /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9363C4D240914DD00213B7B /* Store.swift */; };
 		F973090F2407BEB10002F800 /* BetterMappable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B027272407ABA10040758E /* BetterMappable.framework */; };
 		F9B026AF2407A6A00040758E /* BetterMappable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B026A62407A69F0040758E /* BetterMappable.framework */; };
 		F9B026C52407A6AC0040758E /* BetterMappableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B02652240791570040758E /* BetterMappableTests.swift */; };
@@ -127,6 +142,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F9363C312409146800213B7B /* JSONObjectArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONObjectArray.swift; sourceTree = "<group>"; };
+		F9363C3A2409146900213B7B /* BaseMappable+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BaseMappable+Ext.swift"; sourceTree = "<group>"; };
+		F9363C3C2409146900213B7B /* JSONMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONMappable.swift; sourceTree = "<group>"; };
+		F9363C4D240914DD00213B7B /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		F9B02647240791570040758E /* BetterMappable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BetterMappable.h; sourceTree = "<group>"; };
 		F9B02648240791570040758E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9B02652240791570040758E /* BetterMappableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterMappableTests.swift; sourceTree = "<group>"; };
@@ -240,6 +259,9 @@
 				F9B02661240793A10040758E /* JSONObject.swift */,
 				F9B02660240793A10040758E /* JSONProperty.swift */,
 				F9B0265F240793A00040758E /* JSONPropertyWithTransform.swift */,
+				F9363C3A2409146900213B7B /* BaseMappable+Ext.swift */,
+				F9363C3C2409146900213B7B /* JSONMappable.swift */,
+				F9363C312409146800213B7B /* JSONObjectArray.swift */,
 				F9B0265E240792090040758E /* Supporting Files */,
 			);
 			path = Source;
@@ -280,6 +302,7 @@
 				F9B02669240794050040758E /* Subclassing.swift */,
 				F9B0266A240794050040758E /* Organization.swift */,
 				F9B0266B240794050040758E /* Student.swift */,
+				F9363C4D240914DD00213B7B /* Store.swift */,
 			);
 			path = TestModels;
 			sourceTree = "<group>";
@@ -645,8 +668,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9363C3E2409146900213B7B /* JSONObjectArray.swift in Sources */,
+				F9363C4A2409146900213B7B /* JSONMappable.swift in Sources */,
 				F9B026F52407A7060040758E /* JSONProperty.swift in Sources */,
 				F9B026F62407A7060040758E /* JSONPropertyWithTransform.swift in Sources */,
+				F9363C422409146900213B7B /* BaseMappable+Ext.swift in Sources */,
 				F9B026F42407A7060040758E /* JSONObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -655,6 +681,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9363C4F240914DD00213B7B /* Store.swift in Sources */,
 				F9B026C82407A6B10040758E /* Subclassing.swift in Sources */,
 				F9B026C62407A6B10040758E /* Vehicle.swift in Sources */,
 				F9B026C72407A6B10040758E /* Person.swift in Sources */,
@@ -668,8 +695,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9363C402409146900213B7B /* JSONObjectArray.swift in Sources */,
+				F9363C4C2409146900213B7B /* JSONMappable.swift in Sources */,
 				F9B026F82407A7070040758E /* JSONProperty.swift in Sources */,
 				F9B026F92407A7070040758E /* JSONPropertyWithTransform.swift in Sources */,
+				F9363C442409146900213B7B /* BaseMappable+Ext.swift in Sources */,
 				F9B026F72407A7070040758E /* JSONObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -678,8 +708,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9363C3F2409146900213B7B /* JSONObjectArray.swift in Sources */,
+				F9363C4B2409146900213B7B /* JSONMappable.swift in Sources */,
 				F9B026FB2407A7080040758E /* JSONProperty.swift in Sources */,
 				F9B026FC2407A7080040758E /* JSONPropertyWithTransform.swift in Sources */,
+				F9363C432409146900213B7B /* BaseMappable+Ext.swift in Sources */,
 				F9B026FA2407A7080040758E /* JSONObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -688,6 +721,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9363C50240914DD00213B7B /* Store.swift in Sources */,
 				F9B0271C2407A9D90040758E /* Subclassing.swift in Sources */,
 				F9B0271A2407A9D90040758E /* Vehicle.swift in Sources */,
 				F9B0271B2407A9D90040758E /* Person.swift in Sources */,
@@ -701,8 +735,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9363C3D2409146900213B7B /* JSONObjectArray.swift in Sources */,
+				F9363C492409146900213B7B /* JSONMappable.swift in Sources */,
 				F9B0273F2407ABAB0040758E /* JSONProperty.swift in Sources */,
 				F9B027402407ABAB0040758E /* JSONPropertyWithTransform.swift in Sources */,
+				F9363C412409146900213B7B /* BaseMappable+Ext.swift in Sources */,
 				F9B0273E2407ABAB0040758E /* JSONObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -711,6 +748,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9363C4E240914DD00213B7B /* Store.swift in Sources */,
 				F9B027422407ABB10040758E /* Person.swift in Sources */,
 				F9B027452407ABB10040758E /* Student.swift in Sources */,
 				F9B027472407ABB50040758E /* BetterMappableTests.swift in Sources */,

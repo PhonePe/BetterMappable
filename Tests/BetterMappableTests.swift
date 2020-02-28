@@ -158,6 +158,34 @@ class BetterMappableTests: XCTestCase {
         XCTAssertEqual(subclass.sub, "PhonePe")
     }
     
+    func testJSONArray() {
+        let json = """
+        {
+            "name": "Ganesh Textiles",
+            "transactions": [
+                {
+                    "id": "T1234",
+                    "amount": 100
+                },
+                {
+                    "id": "T1456",
+                    "amount": 200
+                }
+            ]
+        }
+        """
+        
+        guard let store = Mapper<Store>().map(JSONString: json) else {
+            XCTAssert(false)
+            return
+        }
+        
+        XCTAssertEqual(store.name, "Ganesh Textiles")
+        XCTAssertEqual(store.transactions?.count, 2)
+        XCTAssertEqual(store.transactions?.first?.id, "T1234")
+        XCTAssertEqual(store.transactions?.last?.amount, 200)
+    }
+    
     private func toDict(jsonString: String) -> [String: Any]? {
         if let data = jsonString.data(using: .utf8) {
             do {
