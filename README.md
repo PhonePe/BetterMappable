@@ -1,16 +1,19 @@
 # BetterMappable
 [![Swift 5.1](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+[![CocoaPods](https://img.shields.io/cocoapods/v/BetterMappable.svg)](https://github.com/PhonePe/BetterMappable)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Swift Package Manager](https://rawgit.com/jlyonsmith/artwork/master/SwiftPackageManager/swiftpackagemanager-compatible.svg)](https://swift.org/package-manager/)
 
-Better Mappable through Property Wrappers is a framework written in Swift that makes it easy for you to convert your model objects (classes and structs) to and from JSON with the help of [`ObjectMapper`](https://github.com/tristanhimmelman/ObjectMapper). Helps you in reducing a lot of boiler plate code in your models. 
+Better Mappable utilising Swift 5 [`Property Wrappers`](https://nshipster.com/propertywrapper/) is a μframework written on top of [`ObjectMapper`](https://github.com/tristanhimmelman/ObjectMapper) that makes it easy to convert model objects (classes and structs) to and from JSON. Results in reduction of a lot of boiler plate code in models. 
 
 # The Basics
-3 property wrappers are provided for your use:
+There are three property wrappers one needs to know, they are:
 - [JSONProperty](#JSONProperty)
 - [JSONObject](#JSONObject)
 - [JSONPropertyWithTransform](#JSONPropertyWithTransform)
 
 # JSONProperty
-Use this property wrapper to map any primitive variables (`Int`, `String`, `Bool` etc...)
+Utilise this property wrapper to map any primitive variables (`Int`, `String`, `Bool` etc...)
 ```swift
 struct User: Mappable {
     @JSONProperty var name: String?
@@ -22,13 +25,13 @@ struct User: Mappable {
 }
 ```
 
-That's it. Yes!! you read it right. You need not have to implement `func mapping(map: Map)` at all. We automatically take the variable name and assign right value from/to JSON. Incase your variable name is different from the `key` in the JSON, you can provide it as a parameter in `JSONProperty`.
+That's it! For those who are familiar with `ObjectMapper`, yes, you do not have to implement `func mapping(map: Map)` at all. We automatically take the variable name and assign right value from/to JSON. Incase your variable name is different from the `key` in the JSON, you can provide it as a parameter in `JSONProperty`.
 ```swift
 @JSONProperty(key: "on_phonepe") 
 var onPhonePe: Bool?
 ```
 
-You can provide the default value to a variable like the way you generally do with `ObjectMapper`.
+You can provide default value to a variable like the way you generally do with `ObjectMapper`.
 ```swift
 @JSONProperty 
 var age: Int = 0
@@ -62,7 +65,7 @@ struct Address: Mappable {
 }
 ```
 
-Similar to `JSONProperty` example, incase your variable name is different from the `key` in the JSON, you can provide it as a parameter in `JSONObject`.
+Like the `JSONProperty` example, if your variable name is different from the `key` in the JSON, you can provide it as a parameter in `JSONObject`.
 ```swift
 @JSONObject(key: "student_address") 
 var address: Address?
@@ -146,8 +149,35 @@ class Subclass: Base {
 }
 ```
 
-# Installation
-`BetterMappable` can be added to your project using [CocoaPods](https://cocoapods.org/) by adding the following line to your `Podfile`:
+## Installation
+
+### CocoaPods
+
+[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate BetterMappable into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+pod 'BetterMappable', '~> 1.0'
 ```
-pod 'BetterMappable'
+
+### Carthage
+
+[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate BetterMappable into your Xcode project using Carthage, specify it in your `Cartfile`:
+
+```ogdl
+github "PhonePe/BetterMappable" "1.0.1"
 ```
+
+### Swift Package Manager
+
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler. It is in early development, but BetterMappable does support its use on supported platforms.
+
+Once you have your Swift package set up, adding BetterMappable as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/PhonePe/BetterMappable.git", .upToNextMajor(from: "1.0.0"))
+]
+```
+
+# Credits
+[Srikanth KV](https://twitter.com/SrikanthVKabadi)
