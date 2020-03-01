@@ -71,6 +71,47 @@ Like the `JSONProperty` example, if your variable name is different from the `ke
 var address: Address?
 ```
 
+# JSONObjectArray
+Use this property wrapper to map array of custom classes/structs which confirms to `Mappable` protocol
+```swift
+struct Store: Mappable {
+    @JSONObjectArray var transactions: [Transaction]?
+    
+    @JSONProperty var name: String?
+    
+    init?(map: Map) {
+    }
+}
+
+struct Transaction: Mappable {
+    @JSONProperty var id: String?
+    
+    @JSONProperty var amount: Int = 0
+    
+    init?(map: Map) {
+    }
+}
+```
+
+# JSONObjectDictionary
+Use this property wrapper to map dictionary of custom classes/structs which confirms to `Mappable` protocol
+```swift
+struct Categories: Mappable {
+    @JSONObjectDictionary var data: [String: Category]?
+    
+    init?(map: Map) {
+    }
+}
+
+struct Category: Mappable {
+    @JSONProperty var id: String?
+    @JSONProperty var name: String?
+    
+    init?(map: Map) {
+    }
+}
+```
+
 # JSONPropertyWithTransform
 Use this property wrapper to map variables with transformation.
 ```swift
