@@ -11,7 +11,7 @@ import Foundation
 import ObjectMapper
 
 @propertyWrapper
-public final class JSONObjectArray<Value: Mappable> {
+public final class JSONObjectArray<Value: BaseMappable> {
     public let key: String?
     public var wrappedValue: [Value]?
     
