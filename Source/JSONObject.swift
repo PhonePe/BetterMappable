@@ -16,10 +16,10 @@ public final class JSONObject<Value: BaseMappable> {
     public var wrappedValue: Value?
     
     public convenience init(wrappedValue: Value?) {
-        self.init(key: nil, wrappedValue: wrappedValue)
+        self.init(wrappedValue: wrappedValue, key: nil)
     }
     
-    fileprivate init(key: String?, wrappedValue: Value?) {
+    fileprivate init(wrappedValue: Value?, key: String?) {
         self.key = key
         self.wrappedValue = wrappedValue
     }
@@ -27,11 +27,11 @@ public final class JSONObject<Value: BaseMappable> {
 
 extension JSONObject where Value: ExpressibleByNilLiteral {
     public convenience init() {
-        self.init(key: nil, wrappedValue: nil)
+        self.init(wrappedValue: nil, key: nil)
     }
     
     public convenience init(key: String?) {
-        self.init(key: key, wrappedValue: nil)
+        self.init(wrappedValue: nil, key: key)
     }
 }
 
