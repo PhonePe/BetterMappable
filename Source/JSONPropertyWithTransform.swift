@@ -12,31 +12,13 @@ import ObjectMapper
 @propertyWrapper
 public class JSONPropertyWithTransform<Value, Transformer: TransformType> {
     public let key: String?
-    public var wrappedValue: Value
+    public var wrappedValue: Value?
     public let transformer: Transformer?
     
-    public convenience init(wrappedValue: Value) {
-        self.init(wrappedValue: wrappedValue, key: nil, transformer: nil)
-    }
-    
-    public init(wrappedValue: Value, key: String?, transformer: Transformer?) {
+    public init(wrappedValue: Value? = nil, key: String? = nil, transformer: Transformer? = nil) {
         self.key = key
         self.wrappedValue = wrappedValue
         self.transformer = transformer
-    }
-}
-
-extension JSONPropertyWithTransform where Value: ExpressibleByNilLiteral {
-    public convenience init() {
-        self.init(wrappedValue: nil, key: nil, transformer: nil)
-    }
-    
-    public convenience init(key: String?) {
-        self.init(wrappedValue: nil, key: key, transformer: nil)
-    }
-    
-    public convenience init(transformer: Transformer) {
-        self.init(wrappedValue: nil, key: nil, transformer: transformer)
     }
 }
 

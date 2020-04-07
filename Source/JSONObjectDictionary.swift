@@ -15,23 +15,9 @@ public final class JSONObjectDictionary<Value: BaseMappable> {
     public let key: String?
     public var wrappedValue: [String: Value]?
     
-    public convenience init(wrappedValue: [String: Value]?) {
-        self.init(wrappedValue: wrappedValue, key: nil)
-    }
-    
-    fileprivate init(wrappedValue: [String: Value]?, key: String?) {
+    public init(wrappedValue: [String: Value]? = nil, key: String? = nil) {
         self.key = key
         self.wrappedValue = wrappedValue
-    }
-}
-
-extension JSONObjectDictionary where Value: ExpressibleByNilLiteral {
-    public convenience init() {
-        self.init(wrappedValue: nil, key: nil)
-    }
-    
-    public convenience init(key: String?) {
-        self.init(wrappedValue: nil, key: key)
     }
 }
 

@@ -15,23 +15,9 @@ public final class JSONObjectArray<Value: BaseMappable> {
     public let key: String?
     public var wrappedValue: [Value]?
     
-    public convenience init(wrappedValue: [Value]?) {
-        self.init(wrappedValue: wrappedValue, key: nil)
-    }
-    
-    fileprivate init(wrappedValue: [Value]?, key: String?) {
+    public init(wrappedValue: [Value]? = nil, key: String? = nil) {
         self.key = key
         self.wrappedValue = wrappedValue
-    }
-}
-
-extension JSONObjectArray where Value: ExpressibleByNilLiteral {
-    public convenience init() {
-        self.init(wrappedValue: nil, key: nil)
-    }
-    
-    public convenience init(key: String?) {
-        self.init(wrappedValue: nil, key: key)
     }
 }
 

@@ -18,18 +18,14 @@ public class JSONProperty<Value> {
         self.init(wrappedValue: wrappedValue, key: nil)
     }
     
-    public init(wrappedValue: Value, key: String?) {
+    public init(wrappedValue: Value, key: String? = nil) {
         self.key = key
         self.wrappedValue = wrappedValue
     }
 }
 
 extension JSONProperty where Value: ExpressibleByNilLiteral {
-    public convenience init() {
-        self.init(wrappedValue: nil, key: nil)
-    }
-    
-    public convenience init(key: String?) {
+    public convenience init(key: String? = nil) {
         self.init(wrappedValue: nil, key: key)
     }
 }
