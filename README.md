@@ -12,6 +12,7 @@ Better Mappable utilising Swift 5 [`Property Wrappers`](https://nshipster.com/pr
 - [JSONObjectArray](#JSONObjectArray)
 - [JSONObjectDictionary](#JSONObjectDictionary)
 - [JSONPropertyWithTransform](#JSONPropertyWithTransform)
+- [JSONObjectDictionaryArrayValue](#JSONObjectDictionaryArrayValue)
 
 # JSONProperty
 Utilise this property wrapper to map any primitive variables (`Int`, `String`, `Bool` etc...)
@@ -99,6 +100,25 @@ Use this property wrapper to map dictionary of custom classes/structs which conf
 ```swift
 struct Categories: Mappable {
     @JSONObjectDictionary var data: [String: Category]?
+    
+    init?(map: Map) {
+    }
+}
+
+struct Category: Mappable {
+    @JSONProperty var id: String?
+    @JSONProperty var name: String?
+    
+    init?(map: Map) {
+    }
+}
+```
+
+# JSONObjectDictionaryArrayValue
+Use this property wrapper to map dictionary of custom array classes/structs which confirms to `Mappable` protocol
+```swift
+struct Categories: Mappable {
+    @JSONObjectDictionaryArrayValue var data: [String: [Category]]?
     
     init?(map: Map) {
     }
