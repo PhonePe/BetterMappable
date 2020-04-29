@@ -1,10 +1,8 @@
-
 //
-//  MappedYo.swift
-//  MappablePropertyWrappers
+//  JSONObject.swift
+//  BetterMappable
 //
 //  Created by Srikanth KV on 17/02/20.
-//  Copyright © 2020 PhonePe. All rights reserved.
 //
 
 import Foundation
@@ -21,7 +19,7 @@ public final class JSONObject<Value: BaseMappable> {
     }
 }
 
-extension JSONObject: JSONMappable {
+extension JSONObject: JSONPropertyMappable {
     var injectedKey: String? {
         return key
     }

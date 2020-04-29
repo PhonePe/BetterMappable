@@ -1,9 +1,8 @@
 //
 //  Store.swift
-//  BetterMappable
+//  BetterMappable_Tests
 //
 //  Created by Srikanth KV on 28/02/20.
-//  Copyright © 2020 PhonePe. All rights reserved.
 //
 
 import Foundation

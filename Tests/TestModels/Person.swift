@@ -3,7 +3,6 @@
 //  BetterMappable_Tests
 //
 //  Created by Srikanth KV on 24/02/20.
-//  Copyright © 2020 CocoaPods. All rights reserved.
 //
 
 import Foundation

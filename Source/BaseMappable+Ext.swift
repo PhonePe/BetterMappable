@@ -18,7 +18,7 @@ extension BaseMappable {
             mapTo(mirror: mirror.superclassMirror, from: map)
             
             for child in mirror.children {
-                guard let val = child.value as? JSONMappable else {
+                guard let val = child.value as? JSONPropertyMappable else {
                     continue
                 }
                 

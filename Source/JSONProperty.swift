@@ -1,9 +1,8 @@
 //
-//  Mapped.swift
-//  TestPropertyWrappers
+//  JSONProperty.swift
+//  BetterMappable
 //
 //  Created by Srikanth KV on 16/02/20.
-//  Copyright © 2020 PhonePe. All rights reserved.
 //
 
 import Foundation
@@ -30,7 +29,7 @@ extension JSONProperty where Value: ExpressibleByNilLiteral {
     }
 }
 
-extension JSONProperty: JSONMappable {
+extension JSONProperty: JSONPropertyMappable {
     var injectedKey: String? {
         return key
     }

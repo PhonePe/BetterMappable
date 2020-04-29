@@ -1,10 +1,8 @@
-
 //
-//  MappedYo.swift
-//  MappablePropertyWrappers
+//  JSONObjectArray.swift
+//  BetterMappable
 //
 //  Created by Srikanth KV on 17/02/20.
-//  Copyright © 2020 PhonePe. All rights reserved.
 //
 
 import Foundation
@@ -21,7 +19,7 @@ public final class JSONObjectArray<Value: BaseMappable> {
     }
 }
 
-extension JSONObjectArray: JSONMappable {
+extension JSONObjectArray: JSONPropertyMappable {
     func mapValue(from map: Map, key: String) {
         wrappedValue <- map[key]
     }

@@ -3,7 +3,6 @@
 //  BetterMappable
 //
 //  Created by Srikanth KV on 27/02/20.
-//  Copyright © 2020 PhonePe. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

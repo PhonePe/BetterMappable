@@ -1,9 +1,8 @@
 //
 //  Vehicle.swift
-//  MappablePropertyWrappers
+//  BetterMappable_Tests
 //
 //  Created by Srikanth KV on 18/02/20.
-//  Copyright © 2020 PhonePe. All rights reserved.
 //
 
 import Foundation
