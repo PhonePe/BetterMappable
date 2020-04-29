@@ -9,9 +9,9 @@ Better Mappable utilising Swift 5 [`Property Wrappers`](https://nshipster.com/pr
 # Index
 - [JSONProperty](#JSONProperty)
 - [JSONObject](#JSONObject)
-- [JSONPropertyWithTransform](#JSONPropertyWithTransform)
 - [JSONObjectArray](#JSONObjectArray)
 - [JSONObjectDictionary](#JSONObjectDictionary)
+- [JSONPropertyWithTransform](#JSONPropertyWithTransform)
 
 # JSONProperty
 Utilise this property wrapper to map any primitive variables (`Int`, `String`, `Bool` etc...)
