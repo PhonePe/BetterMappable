@@ -215,6 +215,68 @@ class BetterMappableTests: XCTestCase {
         XCTAssertEqual(categories.data?["travel"]?.name, "Travel")
     }
     
+    func testJSONPropertyDictionary() {
+        let json = """
+        {
+            "data": {
+                "id": "T1234",
+                "name": "Food"
+            }
+        }
+        """
+        
+        guard let stringOfString = Mapper<StringOfString>().map(JSONString: json) else {
+            XCTAssert(false)
+            return
+        }
+        
+        XCTAssertNotNil(stringOfString.data)
+        XCTAssertEqual(stringOfString.data?.count, 2)
+        XCTAssertEqual(stringOfString.data?["id"], "T1234")
+        XCTAssertEqual(stringOfString.data?["name"], "Food")
+    }
+    
+    func testJSONDictionaryArrayValue() {
+        let json = """
+        {
+            "data": {
+                "food": [
+                    {
+                        "id": "T1234",
+                        "name": "Food"
+                    },
+                    {
+                        "id": "T3456",
+                        "name": "Water"
+                    }
+                ],
+                "travel": [
+                    {
+                        "id": "T1456",
+                        "name": "Travel"
+                    },
+                    {
+                        "id": "T1678",
+                        "name": "Space"
+                    }
+                ]
+            }
+        }
+        """
+        
+        guard let categories = Mapper<CategoriesDictArrayValue>().map(JSONString: json) else {
+            XCTAssert(false)
+            return
+        }
+        
+        XCTAssertNotNil(categories.data)
+        XCTAssertEqual(categories.data?.count, 2)
+        XCTAssertNotNil(categories.data?["food"])
+        XCTAssertNotNil(categories.data?["travel"])
+        XCTAssertEqual(categories.data?["food"]?.first?.name, "Food")
+        XCTAssertEqual(categories.data?["travel"]?.last?.name, "Space")
+    }
+    
     private func toDict(jsonString: String) -> [String: Any]? {
         if let data = jsonString.data(using: .utf8) {
             do {

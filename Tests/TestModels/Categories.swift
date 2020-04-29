@@ -31,3 +31,21 @@ struct Category: Mappable {
         
     }
 }
+
+struct StringOfString: Mappable {
+    @JSONProperty var data: [String: String]?
+    
+    init?(map: Map) {
+        
+    }
+}
+
+struct CategoriesDictArrayValue: Mappable {
+    
+    @JSONObjectDictionaryArrayValue
+    var data: [String: [Category]]?
+    
+    init?(map: Map) {
+        
+    }
+}
