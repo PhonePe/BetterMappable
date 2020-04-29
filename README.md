@@ -6,11 +6,12 @@
 
 Better Mappable utilising Swift 5 [`Property Wrappers`](https://nshipster.com/propertywrapper/) is a μframework written on top of [`ObjectMapper`](https://github.com/tristanhimmelman/ObjectMapper) that makes it easy to convert model objects (classes and structs) to and from JSON. Results in reduction of a lot of boiler plate code in models. 
 
-# The Basics
-There are three property wrappers one needs to know, they are:
+# Index
 - [JSONProperty](#JSONProperty)
 - [JSONObject](#JSONObject)
 - [JSONPropertyWithTransform](#JSONPropertyWithTransform)
+- [JSONObjectArray](#JSONObjectArray)
+- [JSONObjectDictionary](#JSONObjectDictionary)
 
 # JSONProperty
 Utilise this property wrapper to map any primitive variables (`Int`, `String`, `Bool` etc...)
